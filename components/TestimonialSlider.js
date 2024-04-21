@@ -5,21 +5,21 @@ const testimonialData = [
     name: "Anne Smith",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I had a fantastic experience with Amir. He was friendly, knowledgeable, and efficient.",
   },
   {
     image: "/t-avt-2.png",
     name: "Jane Doe",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I am a repeat customer of this business, and he never disappoint.I’ve recommended him to all my friends and family, and I will continue to do so",
   },
   {
     image: "/t-avt-3.png",
     name: "Jhon Doe",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I can’t say enough good things about this guy. From the moment I contacted him, he were responsive and accommodating.",
   },
 ];
 
@@ -52,7 +52,7 @@ const TestimonialSlider = () => {
       {testimonialData.map((person, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className=" flex flex-col items-center md:flex-row gap-x-8 h-full px-16 cursor-pointer ">
+            <div className=" flex flex-col items-center md:flex-row gap-x-8 h-[80%] md:h-full px-16 cursor-pointer pt-5">
               {/* avatar,name,position */}
               <div className="w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0 ">
                 <div>
@@ -69,7 +69,7 @@ const TestimonialSlider = () => {
                 </div>
               </div>
               {/* quote & message */}
-              <div className=" flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20 ">
+              <div className=" flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20  xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20 ">
                 {/* quote icon */}
                 <div className="mb-4">
                   <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />

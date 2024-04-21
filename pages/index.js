@@ -24,7 +24,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="h1 text-[2.2rem] pt-9"
           >
             Transforming Ideas <br /> Into{" "}
             <span className="text-accent">Digital Reality</span>
@@ -35,14 +35,15 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto  xl:mx-0 mb-3 xl:mb-16 text-sm md:text-md text-white/80 py-[8px]"
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            I'm Amir, a passionate front-end developer with 1 year of experience
+            in creating responsive and user-friendly websites. I am constantly
+            learning and exploring new technologies to stay up-to-date with the
+            latest trends in front-end development. Let's work together to bring
+            your ideas to life on the web!.
           </motion.p>
-          <div className="flex justify-center xl:hidden relative">
+          <div className="flex justify-center xl:hidden relative pb-3 md:pb-5">
             <ProjectBtn />
           </div>
           <motion.div
