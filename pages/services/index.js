@@ -30,10 +30,7 @@ const Services = () => {
               animate="show"
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </motion.p>
+            ></motion.p>
           </div>
           <motion.div
             variants={fadeIn("down", 0.4)}
