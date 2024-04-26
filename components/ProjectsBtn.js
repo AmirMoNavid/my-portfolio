@@ -15,7 +15,7 @@ const ProjectsBtn = () => {
         className="relative w-[165px] h-[165px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"
       >
         <Image
-          src={"/nextjs-github-pages/rounded-text.png"}
+          src={"/rounded-text.png"}
           width={141}
           height={148}
           alt=""
