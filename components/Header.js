@@ -1,6 +1,3 @@
-//next image
-import Image from "next/image";
-
 //next Link
 import Link from "next/link";
 
