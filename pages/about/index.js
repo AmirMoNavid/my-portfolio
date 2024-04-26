@@ -15,6 +15,8 @@ import {
   SiAdobephotoshop,
   SiTypescript,
   SiTailwindcss,
+  SiGithub,
+  SiGit,
 } from "react-icons/si";
 
 import { useState } from "react";
@@ -34,6 +36,8 @@ const aboutData = [
           <SiNextdotjs />,
           <SiTypescript />,
           <SiTailwindcss />,
+          <SiGithub />,
+          <SiGit />,
         ],
       },
     ],
@@ -135,7 +139,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={-1} end={2} duration={8} />+
+                  <CountUp start={-1} end={1} duration={8} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience
@@ -186,7 +190,7 @@ const About = () => {
                   key={itemIndex}
                   className={` ${
                     index === itemIndex &&
-                    "text-accent after:w-[100%] after:transition-all after:duration-300 after:bg-red-600"
+                    "text-accent after:w-[100%] after:transition-all after:duration-300 after:bg-red-700"
                   }   cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white    after:absolute after:-bottom-1 after:left-0 `}
                   onClick={() => setIndex(itemIndex)}
                 >
@@ -208,7 +212,7 @@ const About = () => {
                   </div>
                   <div className="hidden md:flex">-</div>
                   <div>{item.stage}</div>
-                  <div className="flex gap-x-4">
+                  <div className="flex gap-x-4 gap-y-2 flex-wrap">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
                       return (
