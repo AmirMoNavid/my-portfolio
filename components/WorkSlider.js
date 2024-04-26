@@ -66,7 +66,12 @@ const WorkSlider = () => {
                   >
                     <div className="flex items-center justify-center relative overflow-hidden">
                       {/* image */}
-                      <Image src={image.path} width={500} height={300} alt="" />
+                      <Image
+                        src={`/nextjs-github-pages/${image.path}`}
+                        width={500}
+                        height={300}
+                        alt=""
+                      />
                       {/* overlay gradiant */}
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                       {/* title */}

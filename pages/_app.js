@@ -10,10 +10,11 @@ import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
+
   return (
     <Layout>
       <AnimatePresence mode="wait">
-        <motion.div key={router.route} className="h-full">
+        <motion.div key={router.route} className="h-full bg- bg-site">
           <Transition />
           <Component {...pageProps} />;
         </motion.div>
