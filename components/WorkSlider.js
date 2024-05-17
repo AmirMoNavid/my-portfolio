@@ -19,8 +19,7 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb3.png",
-          link: "https://amirusepopcorn.liara.run"
-            ",
+          link: "https://amirusepopcorn.liara.run",
         },
         {
           title: "title",
