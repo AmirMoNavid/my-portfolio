@@ -14,7 +14,7 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb2.png",
-          link: "https://worldwise-jonas.netlify.app",
+          link: "https://amirbankist.liara.run",
         },
         {
           title: "title",
