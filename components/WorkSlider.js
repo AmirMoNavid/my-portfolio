@@ -19,7 +19,7 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb3.png",
-          link: "https://usepopcorn.netlify.app",
+          link: "https://amirusepopcorn.liara.run",
         },
         {
           title: "title",
