@@ -4,7 +4,7 @@ export default nextConfig;
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-    basePath: "/nextjs-github-pages",
+
 }
 
 module.exports = nextConfig
