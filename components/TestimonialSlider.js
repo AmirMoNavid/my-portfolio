@@ -58,12 +58,7 @@ const TestimonialSlider = () => {
                 <div>
                   {/* avatar */}
                   <div className="mb-2 mx-auto">
-                    <Image
-                      src={`/nextjs-github-pages/${person.image}`}
-                      width={100}
-                      height={100}
-                      alt=""
-                    />
+                    <Image src={person.image} width={100} height={100} alt="" />
                   </div>
                   {/* name */}
                   <div className="text-lg">{person.name}</div>
