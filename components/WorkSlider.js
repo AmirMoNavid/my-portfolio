@@ -14,7 +14,7 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb2.png",
-          link: "https://amirbankist.liara.run",
+          link: "https://hey-chat-navid.vercel.app",
         },
         {
           title: "title",
