@@ -10,13 +10,14 @@ import {
 
 import {
   SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
   SiTypescript,
   SiTailwindcss,
+  SiNodedotjs,
   SiGithub,
   SiGit,
+  SiRedux,
+  SiMongodb,
+  SiMui,
 } from "react-icons/si";
 
 import { useState } from "react";
@@ -36,6 +37,10 @@ const aboutData = [
           <SiNextdotjs />,
           <SiTypescript />,
           <SiTailwindcss />,
+          <SiNodedotjs />,
+          <SiRedux />,
+          <SiMongodb />,
+          <SiMui />,
           <SiGithub />,
           <SiGit />,
         ],
