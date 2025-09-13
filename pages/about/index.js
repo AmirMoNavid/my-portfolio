@@ -123,7 +123,7 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0  text-sm md:text-md text-white/75 py-[8px] "
           >
             <div className="md:pl-9">
-              1 year ago, I began freelancing as a developer. Since then, I've
+              3 years ago, I began freelancing as a developer. Since then, I've
               done remote work for agencies, counsulted for startups, and
               collaborated on digital products for business and consumer use.
             </div>
