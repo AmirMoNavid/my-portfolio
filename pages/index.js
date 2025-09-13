@@ -37,7 +37,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto  xl:mx-0 mb-3 xl:mb-16 text-sm md:text-md text-white/80 py-[8px]"
           >
-            I'm Amir, a passionate front-end developer with 2.5 years of experience
+            I'm Amir, a passionate Web developer with 3 years of experience
             in creating responsive and user-friendly websites. I am constantly
             learning and exploring new technologies to stay up-to-date with the
             latest trends in front-end development. Let's work together to bring
